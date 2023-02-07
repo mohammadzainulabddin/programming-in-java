@@ -9,8 +9,7 @@ for(int j = i+1; j < arr.length; j++){
 if(arr[i] == arr[j]){  
 count++;  
 fr[j] = visited;  
- }  
-}  
+[}  
 if(fr[i] != visited)  
 fr[i] = count;  
 }            
